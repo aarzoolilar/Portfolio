@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aarzoo — CSE Student &amp; Web/Data Builder</title>
+<meta name="description" content="Portfolio of Aarzoo — third-year CSE student at NIT Srinagar, Website Manager Intern at Bramahastra Cyber Security, and Python/data builder.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">AARZOO<span class="nav__cursor">_</span></a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">/about</a>
+      <a href="#experience">/experience</a>
+      <a href="#projects">/projects</a>
+      <a href="#skills">/skills</a>
+      <a href="#education">/education</a>
+      <a href="#contact">/contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" id="top">
+    <div class="hero__gridbg" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <pre class="boot" id="boot" aria-hidden="true"></pre>
+
+      <div class="hero__content" id="heroContent">
+        <p class="eyebrow">// SYSTEM PROFILE — ACCESS GRANTED</p>
+        <h1 class="hero__name">AARZOO</h1>
+        <p class="hero__role">Computer Science &amp; Engineering · NIT Srinagar</p>
+        <p class="hero__tagline">Third-year CSE student currently managing web infrastructure for a cybersecurity team — and building with data on the side.</p>
+
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View work</a>
+          <a href="resume.pdf" download class="btn btn--ghost">Download résumé</a>
+          <a href="#contact" class="btn btn--ghost">Get in touch</a>
+        </div>
+
+        <div class="hero__meta">
+          <span>Fazilka, Punjab, IN</span>
+          <span class="dot" aria-hidden="true">·</span>
+          <span>Open to internships &amp; opportunities</span>
+        </div>
+      </div>
+    </div>
+    <div class="scanline" aria-hidden="true"></div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="section__inner">
+      <p class="section__eyebrow">DOSSIER / PROFILE</p>
+      <h2 class="section__title">About</h2>
+      <div class="about__layout">
+        <p class="about__text reveal">I'm a third-year Computer Science &amp; Engineering student at NIT Srinagar. Right now I'm the Website Manager Intern at Bramahastra Cyber Security, keeping a cybersecurity company's web presence fast, current, and secure. Outside of that, I build with Python — exploratory data analysis, SQL pipelines, and small tools that turn raw numbers into decisions worth making. I like systems: the kind you defend, and the kind you uncover patterns in.</p>
+        <ul class="about__facts reveal">
+          <li><span>Location</span>Fazilka, Punjab, India</li>
+          <li><span>Institute</span>NIT Srinagar</li>
+          <li><span>Year</span>3rd Year, B.Tech CSE</li>
+          <li><span>Focus</span>Data Analysis · Web Dev · Security Ops</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="experience">
+    <div class="section__inner">
+      <p class="section__eyebrow">ACCESS LOG / EXPERIENCE</p>
+      <h2 class="section__title">Experience</h2>
+
+      <ol class="log">
+        <li class="log__entry reveal">
+          <div class="log__meta">
+            <span class="log__date">MAY 2026 — PRESENT</span>
+            <span class="tag tag--active">ACTIVE</span>
+          </div>
+          <h3 class="log__role">Website Manager Intern</h3>
+          <p class="log__org">Bramahastra Cyber Security</p>
+          <ul class="log__points">
+            <li>Manage the company website end-to-end — content updates, performance tuning, and a smooth experience for every visitor.</li>
+            <li>Coordinate with cross-functional teams to keep web content aligned with the company's cybersecurity services and brand identity.</li>
+            <li>Track website analytics and ship improvements that grow visibility and engagement.</li>
+          </ul>
+        </li>
+
+        <li class="log__entry reveal">
+          <div class="log__meta">
+            <span class="log__date">DECEMBER 2025</span>
+            <span class="tag tag--complete">COMPLETE</span>
+          </div>
+          <h3 class="log__role">Python Developer Intern</h3>
+          <p class="log__org">Elevate Labs</p>
+          <ul class="log__points">
+            <li>Built and optimized Python solutions across data structures, algorithms, and backend logic for real-world problems.</li>
+            <li>Applied professional development practices, working independently under guidance to deliver results.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="section__inner">
+      <p class="section__eyebrow">CASE FILES / PROJECTS</p>
+      <h2 class="section__title">Projects</h2>
+
+      <div class="cases">
+        <article class="case reveal">
+          <span class="case__corner case__corner--tl" aria-hidden="true"></span>
+          <span class="case__corner case__corner--tr" aria-hidden="true"></span>
+          <span class="case__corner case__corner--bl" aria-hidden="true"></span>
+          <span class="case__corner case__corner--br" aria-hidden="true"></span>
+          <p class="case__id">CASE FILE: NFLX-EDA</p>
+          <h3 class="case__title">Netflix Movies &amp; TV Shows Analysis</h3>
+          <p class="case__desc">An end-to-end exploratory analysis of a large Netflix dataset — cleaning missing values and duplicates, then visualizing trends across genres, countries, and release years to surface real content patterns.</p>
+          <ul class="case__stack">
+            <li>Python</li><li>Pandas</li><li>Matplotlib</li><li>Seaborn</li>
+          </ul>
+        </article>
+
+        <article class="case reveal">
+          <span class="case__corner case__corner--tl" aria-hidden="true"></span>
+          <span class="case__corner case__corner--tr" aria-hidden="true"></span>
+          <span class="case__corner case__corner--bl" aria-hidden="true"></span>
+          <span class="case__corner case__corner--br" aria-hidden="true"></span>
+          <p class="case__id">CASE FILE: SALES-SQL</p>
+          <h3 class="case__title">Sales Data Analysis</h3>
+          <p class="case__desc">Complex SQL queries — joins, aggregations, window functions, and subqueries — across multidimensional sales data to surface top products, high-value customers, and seasonal revenue trends.</p>
+          <ul class="case__stack">
+            <li>MySQL</li>
+          </ul>
+        </article>
+
+        <article class="case reveal">
+          <span class="case__corner case__corner--tl" aria-hidden="true"></span>
+          <span class="case__corner case__corner--tr" aria-hidden="true"></span>
+          <span class="case__corner case__corner--bl" aria-hidden="true"></span>
+          <span class="case__corner case__corner--br" aria-hidden="true"></span>
+          <p class="case__id">CASE FILE: QUIZ-GEN</p>
+          <h3 class="case__title">Quiz Generator &amp; Analyzer</h3>
+          <p class="case__desc">A dynamic Python app that generates subject-specific quizzes and runs timed assessments, with a scoring engine that tracks accuracy and progress across attempts.</p>
+          <ul class="case__stack">
+            <li>Python</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="skills">
+    <div class="section__inner">
+      <p class="section__eyebrow">SYSTEM SCAN / SKILLS</p>
+      <h2 class="section__title">Skills</h2>
+
+      <div class="matrix">
+        <div class="matrix__row reveal">
+          <p class="matrix__label">Languages</p>
+          <div class="matrix__tags">
+            <span>C</span><span>C++</span><span>Python</span><span>JavaScript</span><span>Java</span>
+          </div>
+        </div>
+        <div class="matrix__row reveal">
+          <p class="matrix__label">Web Dev</p>
+          <div class="matrix__tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Node.js</span>
+          </div>
+        </div>
+        <div class="matrix__row reveal">
+          <p class="matrix__label">Databases</p>
+          <div class="matrix__tags">
+            <span>MySQL</span><span>MongoDB</span>
+          </div>
+        </div>
+        <div class="matrix__row reveal">
+          <p class="matrix__label">Tools</p>
+          <div class="matrix__tags">
+            <span>Git</span><span>VS Code</span>
+          </div>
+        </div>
+        <div class="matrix__row reveal">
+          <p class="matrix__label">Domains</p>
+          <div class="matrix__tags">
+            <span>Data Science</span><span>Machine Learning</span><span>NLP</span>
+          </div>
+        </div>
+        <div class="matrix__row reveal">
+          <p class="matrix__label">Soft Skills</p>
+          <div class="matrix__tags">
+            <span>Strategic Thinking</span><span>Collaboration</span><span>Client Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="section__inner">
+      <p class="section__eyebrow">RECORDS / EDUCATION</p>
+      <h2 class="section__title">Education</h2>
+
+      <div class="records">
+        <div class="record reveal">
+          <div class="record__date">2023 — 2027</div>
+          <div class="record__body">
+            <h3>B.Tech, Computer Science &amp; Engineering</h3>
+            <p>National Institute of Technology, Srinagar — final year student</p>
+          </div>
+        </div>
+        <div class="record reveal">
+          <div class="record__date">2022</div>
+          <div class="record__body">
+            <h3>Senior Secondary (Class XII), CBSE</h3>
+            <p>AV Public School, Fazilka, Punjab — PCM Stream, 92%</p>
+          </div>
+        </div>
+        <div class="record reveal">
+          <div class="record__date">2020</div>
+          <div class="record__body">
+            <h3>Secondary (Class X), CBSE</h3>
+            <p>Chanakya School, Fazilka, Punjab — 91.2%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark" id="achievements">
+    <div class="section__inner">
+      <p class="section__eyebrow">COMMENDATIONS / ACTIVITIES</p>
+      <h2 class="section__title">Achievements</h2>
+
+      <div class="commends">
+        <div class="commend reveal">
+          <span class="tag tag--active">2ND PLACE</span>
+          <h3>Guess the Programming Language</h3>
+          <p>Placed 2nd in this competitive technical event at the college tech fest, reading code under pressure faster than most of the room.</p>
+        </div>
+        <div class="commend reveal">
+          <span class="tag tag--complete">SEP 2025</span>
+          <h3>Performance Team, Annual Cultural Fest</h3>
+          <p>Active member of the performance team — helping coordinate events and taking the stage for performances.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <div class="section__inner">
+      <p class="section__eyebrow">TRANSMIT / CONTACT</p>
+      <h2 class="section__title">Let's talk</h2>
+      <p class="contact__text reveal">Open to internships and opportunities in web development, data analysis, and security. The fastest way to reach me is email.</p>
+
+      <div class="contact__grid reveal">
+        <button class="contact__item" id="copyEmail" type="button">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">aarzoolilar.lilar@gmail.com</span>
+          <span class="contact__hint" id="copyHint">Click to copy</span>
+        </button>
+
+        <a class="contact__item" href="tel:+917888809615">
+          <span class="contact__label">Phone</span>
+          <span class="contact__value">+91 78888 09615</span>
+        </a>
+
+        <div class="contact__item contact__item--static">
+          <span class="contact__label">Location</span>
+          <span class="contact__value">Fazilka, Punjab, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__line">// AARZOO <span id="year"></span></p>
+  <a href="#top" class="footer__top">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
